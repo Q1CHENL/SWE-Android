@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TsunamiSim</string>
+    <string name="enter_base_name">Enter base name</string>
+    <string name="enter_the_y_coordinate">Enter the y coordinate</string>
+    <string name="enter_the_x_coordinate">Enter the x coordinate</string>
+    <string name="number_of_checkpoints">Number of checkpoints</string>
+    <string name="simulation_time"> Total simulation time</string>
+    <string name="enter_the_boundary_condition">Enter the boundary condition</string>
+</resources>

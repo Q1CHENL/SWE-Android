@@ -1,0 +1,9 @@
+build
+.gradle
+.idea
+Debug
+debug
+.cxx
+local.properties
+docs
+Doxyfile
