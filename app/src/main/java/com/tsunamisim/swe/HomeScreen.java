@@ -40,3 +40,7 @@ public class HomeScreen extends AppCompatActivity {
         
     }
 }
+//TODO add setting button for jumping to ouput directory, enable write output text
+//TODO add disclaimer and help page
+//TODO optimize button to round form
+//TODO beautify text input field

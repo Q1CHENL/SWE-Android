@@ -14,8 +14,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="35dp"
         android:layout_marginBottom="548dp"
-        android:text="Welcome to the Tsunami Simulation App"
+        android:text="Welcome to the Tsunami Simulation"
         android:textAlignment="center"
+        android:textSize="16sp"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,7 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="96dp"
         android:layout_marginTop="43dp"
-        android:layout_marginEnd="97dp"
+        android:layout_marginEnd="96dp"
         android:onClick="computeWaveSpeeds"
         android:text="Compute Wave Speeds"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,16 +38,20 @@
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="90dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginStart="96dp"
         android:layout_marginTop="96dp"
-        android:layout_marginEnd="65dp"
+        android:layout_marginEnd="20dp"
         android:layout_marginBottom="339dp"
         android:onClick="SWE1D"
         android:text="SWE1D"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/divider"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.796" />
 
     <TextView
         android:id="@+id/textView3"
@@ -54,9 +59,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="17dp"
         android:layout_marginBottom="28dp"
-        android:text="Please choose what you want to do"
+        android:text="Please choose one scenario to start"
         android:textAlignment="center"
         android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,16 +70,20 @@
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="90dp"
+        android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginStart="65dp"
+        android:layout_marginStart="20dp"
         android:layout_marginTop="96dp"
+        android:layout_marginEnd="96dp"
         android:layout_marginBottom="339dp"
         android:onClick="SWE"
         android:text="SWE"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/divider"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.812" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -100,6 +110,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511"
         tools:visibility="visible" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
