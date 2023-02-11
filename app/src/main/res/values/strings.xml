@@ -6,4 +6,5 @@
     <string name="number_of_checkpoints">Number of checkpoints</string>
     <string name="simulation_time"> Total simulation time</string>
     <string name="enter_the_boundary_condition">Enter the boundary condition</string>
+    <string name="compute_wave_speeds">Compute Wave Speeds</string>
 </resources>
