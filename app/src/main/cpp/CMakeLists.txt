@@ -25,9 +25,9 @@ add_library( # Sets the name of the library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        wavespeed.cpp
-        swe.cpp
-        swe1d.cpp
+        wavespeed-runner.cpp
+        swe-runner.cpp
+        swe1d-runner.cpp
         ${SOURCES}
         )
 
