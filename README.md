@@ -9,6 +9,10 @@ This project is based on the following 2 SWE projects: [TUM-I5-SWE](https://gith
   <tr>
     <td><img src="screenshots/home_screen.png" alt="UI"></td>
     <td><img src="screenshots/swe.png" alt="UI"></td>
+  </tr>
+</table>
+<table>
+  <tr>
     <td><img src="screenshots/swe1d_spinner.png" alt="UI"></td>
     <td><img src="screenshots/app_icon.png" alt="UI"></td>
   </tr>
